@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Nimble Laptop Setup with Fish shell
-# This script will set up a development machine using Fish instead of Zsh
+# GoTECQ Laptop Setup with Fish shell
+# This script will set up a development machine using Fish
 
 set -e
 trap 'ret=$?; test $ret -ne 0 && printf "failed\n\n" >&2; exit $ret' EXIT
