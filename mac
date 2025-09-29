@@ -190,7 +190,6 @@ install() {
 
   install_laptop_local
   brew cleanup
-  brew "pipx"
 }
 
 # Run
